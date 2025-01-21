@@ -1,5 +1,9 @@
 # ubuntu-setup
-Run the setup by running the `setup-machine.sh` file.
+Run the setup by running the `setup-machine.sh` file.\
+Execute the command:
+```
+sh ./setup-machine.sh
+```
 
 ## Installing VS Code:
 Open VS Code download page by clicking [here](https://code.visualstudio.com/download).\

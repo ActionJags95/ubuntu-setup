@@ -1,6 +1,6 @@
 # ubuntu-setup
 
-After cloning the repository naviagate to the repo folder.\
+After cloning the repository naviagate to the repo folder.
 
 Run the setup using the `setup-machine.sh` file.\
 Execute the command:

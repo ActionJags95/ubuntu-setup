@@ -9,6 +9,9 @@ sudo apt install python-is-python3 -y
 sudo apt install python3-py -y
 sudo apt install neofetch -y
 sudo apt install vlc -y
+sudo apt install tmux -y
+sudo apt install gnome-shell-extension-manager
+sudo apt install gnome-tweaks
 
 # Auto-updates setting
 sudo apt install unattended-upgrades -y
@@ -67,3 +70,20 @@ rm -rf ~/.config/nvim
 rm -rf ~/.local/state/nvim
 rm -rf ~/.local/share/nvim
 git clone -b v2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+
+
+# Dracula
+## Dracula Theme
+mkdir Dracula
+cd Dracula
+git clone https://github.com/odziom91/libadwaita-theme-changer.git
+cd libadwaita-theme-changer
+chmod +x libadwaita-tc.py
+./libadwaita-tc.py
+cd ..
+
+## Dracula Terminal
+sudo apt-get install dconf-cli
+git clone https://github.com/dracula/gnome-terminal
+cd gnome-terminal
+./install.sh

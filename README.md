@@ -20,7 +20,7 @@ Once done, restart chrome
 ### For VS Code
 Open terminal and run the following command:
 ```
-    nano /usr/share/applications/code.desktop
+sudo nano /usr/share/applications/code.desktop
 ```
 
 For the line starting with `Exex =`, replace the line with:
